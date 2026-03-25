@@ -11,7 +11,7 @@
 		"homepage": "https://github.com/zP3n/Promptly",
 		"sources": "https://github.com/zP3n/Promptly"
 	},
-	"license": "CC0-1.0",
+	"license": "CC BY-NC-SA",
 	"icon": "assets/promptly/icon.png",
 	"environment": "client",
 	"entrypoints": {
