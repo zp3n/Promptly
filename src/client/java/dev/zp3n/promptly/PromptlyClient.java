@@ -2,7 +2,7 @@ package dev.zp3n.promptly;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.message.v1.ClientSendMessageEvents;
-import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.Minecraft;
 
 public class PromptlyClient implements ClientModInitializer {
 
@@ -16,7 +16,7 @@ public class PromptlyClient implements ClientModInitializer {
 
 			if (!original.equals(rewritten)) {
 				// 変換された場合のみ送信
-				MinecraftClient.getInstance().player.networkHandler.sendCommand(
+				Minecraft.getInstance().player.connection.sendCommand(
 						rewritten.substring(1) // "/"を削除
 				);
 				return false; // 元コマンドは送らない
