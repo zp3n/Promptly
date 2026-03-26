@@ -9,7 +9,8 @@
 	],
 	"contact": {
 		"homepage": "https://github.com/zP3n/Promptly",
-		"sources": "https://github.com/zP3n/Promptly"
+		"sources": "https://github.com/zP3n/Promptly",
+		"issues": "https://github.com/zp3n/Promptly/issues"
 	},
 	"license": "CC BY-NC-SA",
 	"icon": "assets/promptly/icon.png",
