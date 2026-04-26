@@ -21,7 +21,7 @@ public class PromptlyClient implements ClientModInitializer {
 			if(command.equals("holdbreakclick") || command.equals("hbc")){
 				Minecraft mc = Minecraft.getInstance();
 				if(mc.options.toggleAttack().get()){
-					mc.player.displayClientMessage(Component.literal("§6[Promptly]§r Attack/Destroy :  §2Hold§r"),false);
+					mc.player.displayClientMessage(Component.literal("§6[Promptly]§r Attack/Destroy :  §aHold§r"),false);
 					mc.player.playSound(SoundEvents.ARROW_HIT_PLAYER, 0.5F, 0.8F);
 					mc.options.toggleAttack().set(false);
 				}else{
