@@ -18,6 +18,7 @@ The structure of the JSON file is as follows:
 {
    "1st command you enter":"1st command to send to the server",
    "2nd command you enter":"2nd command to send to the server"
+   ...
 }
 ```
 Please note that you will need to restart Minecraft after adding commands to the config file.  
