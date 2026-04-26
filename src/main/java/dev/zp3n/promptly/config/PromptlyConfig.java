@@ -52,7 +52,7 @@ public class PromptlyConfig {
 
     private static void createDefault() {
         commands.put("/end", "/warp end");
-        commands.put("/spawn", "/warp spawn");
+        commands.put("/dw", "/warp dwarves");
         save();
     }
 }
