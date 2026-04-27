@@ -20,7 +20,8 @@
 			"dev.zp3n.promptly.Promptly"
 		],
 		"client": [
-			"dev.zp3n.promptly.PromptlyClient"
+			"dev.zp3n.promptly.PromptlyClient",
+			"dev.zp3n.promptly.PromptlyHBCdefault"
 		]
 	},
 	"depends": {
