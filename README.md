@@ -20,8 +20,7 @@ The structure of the JSON file is as follows:
    "2nd command you enter":"2nd command to send to the server"
    ...
 }
-```
-Please note that you will need to restart Minecraft after adding commands to the config file.  
+```  
   
 /hbc or /holdbreakclick is new function.  
 Change Attack/Destroy setting (Hold or Toggle) with sound and text message when you send command.
